@@ -1,12 +1,10 @@
 {
-    "workbench.colorTheme": "Level Up Syntax",
-    "dart.openDevTools": "flutter",
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
-    "dart.showInspectorNotificationsForWidgetErrors": false,
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "git.openRepositoryInParentFolders": "always",
     "editor.tokenColorCustomizations": {
         "textMateRules": []
@@ -15,7 +13,7 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "editor.fontFamily": "\"Cascadia Code\"",
+    "editor.fontFamily": "CaskaydiaCove NF",
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 19,
@@ -25,7 +23,6 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "terminal.integrated.tabFocusMode": true,
     "diffEditor.wordWrap": "on",
     "workbench.preferredDarkColorTheme": "Community Material Theme",
     "workbench.sideBar.location": "right",
@@ -38,7 +35,7 @@
     "editor.minimap.enabled": false,
     "explorer.openEditors.visible": 0,
     "files.associations": {
-        "*.css": "css"
+        "*.css": "tailwindcss"
     },
     "editor.quickSuggestions": {
         "strings": "on"
@@ -68,5 +65,18 @@
         0.9,
         0.9
     ],
-    "prisma.showPrismaDataPlatformNotification": false
+    "prisma.showPrismaDataPlatformNotification": false,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "explorer.compactFolders": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
+    "editor.linkedEditing": true,
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    }
 }
